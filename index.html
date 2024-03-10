@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Social links profile</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    body {
+      background-color: hsl(0, 0%, 8%);
+    }
+    
+    .card {
+      font-family: 'Inter';
+      margin: auto;
+      margin-top: 180px;
+      text-align: center;
+      color: white;
+      background-color: hsl(0, 0%, 12%);
+      width: 340px;
+      height: 560px;
+      border-radius: 15px;
+    }
+
+    img {
+      margin-top: 25px;
+      border-radius: 50%;
+      width: 90px;
+    }
+
+    .localtion {
+      color: hsl(75, 94%, 57%);
+      font-weight: 600;
+      margin-top: -15px;
+    }
+
+    .name {
+      font-size: 22px;
+    }
+
+    .socials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .socials > a {
+      text-decoration: none;
+      color: white;
+      border-radius: 10px;
+      width: 280px;
+      height: 45px;
+      background-color: hsl(0, 0%, 20%);
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .info {
+      font-weight: 400;
+    }
+
+    a:hover {
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="card">
+    <img src="assets/images/avatar-jessica.jpeg" alt="">
+    <h3 class="name">Jessica Randall</h3>
+    <h5 class="localtion">London, United Kingdom</h5>
+    <h5 class="info">"Front-end developer and avid reader."</h5>
+    
+    <div class="socials">
+      <a href="GitHub">GitHub</a>
+      <a href="">Frontend Mentor</a>
+      <a href="">LinkedIn</a>
+      <a href="">Twitter</a>
+      <a href="">Instagram</a>
+    </div>
+  </div>
+
+  <!-- div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yunus</a>.
+  </div> -->
+</body>
+</html>
